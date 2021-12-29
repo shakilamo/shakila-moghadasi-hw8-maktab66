@@ -1,0 +1,21 @@
+@keyframes ball {
+    from{margin-left: 0;}
+    to{margin-left: 80vw;}
+}
+@keyframes rol {
+    from{}
+    to{transform: rotate(360deg);}
+}
+.ball {
+    animation: ball infinite 4s linear , rol infinite 1s linear;
+    object-fit: contain;
+}
+@keyframes dell {
+    from{}
+    to{transform: scale(2 , 3);}
+}
+.dell {
+    margin-left: 50px;
+    margin-top: 60px;
+    animation: dell infinite 4s;
+}
